@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="html" href="index.html">
+</head>
+<body>
+
+    <div class="form-box">
+        <img src="Image/FredTech-logo.png" class="FredTech-logo">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn"onclick="register()">Register</button>
+        </div>
+        <form id=login class="input-group">
+            <input type="email" id="email" class="input-field" placeholder="Player ID" required>
+            <input type="password"id="password" class="input-field" placeholder="Enter Passcode" required>
+            <input type="checkbox" class="check-box"><span>Remember me</span>
+            <br>
+            <br>
+            <button type="submit" class="submit-btn" onclick="validate()">Log in</button>
+            <br>
+            <br>
+            <div class="social-icon">
+                <a href= https://www.facebook.com><img src="Image/facebook.png" alt="facebook"></a>
+               <a href= https://www.gmail.com><img src="Image/google.png" alt="google"></a>
+               <a href=x.com><img src="Image/x.png" alt="x"></a>
+            </div>
+        </form>
+        <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Player ID" required>
+                <input type="text" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Passcode">
+                <input type="text" class="input-field" placeholder="Comfirm Passcode">
+                <button type="submit" class="submit-btn">Submit</button>
+                <br>
+                <br>
+                <div class="social-icon">
+                    <a href= https://www.facebook.com><img src="Image/facebook.png" alt="facebook"></a>
+                   <a href= https://www.gmail.com><img src="Image/google.png" alt="google"></a>
+                   <a href=x.com><img src="Image/x.png" alt="x"></a>
+                </div>
+        </form>  
+    </div>
+    <script defer src="login.js"></script> 
+</body>
+</html>
