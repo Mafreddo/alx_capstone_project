@@ -24,48 +24,48 @@ window.onload = function(){
 
 const questions = [
     {
-        question: "How many rings are on the Olympic flag?",
+        question: "The “Father of Artificial Intelligence” is",
         answer: [
-            {text: "None", correct: false},
-            {text: "4", correct: true},
-            {text: "5", correct: false},
-            {text: "7", correct: false},
+            {text: "Charles Babbage", correct: false},
+            {text: "John McCathy", correct: true},
+            {text: "Allan Turing", correct: false},
+            {text: "None of the above", correct: false},
         ]
     },
     {
-    question: "What is a tarsier?",
+    question: "Blind Search can be used for which of the following situations?",
     answer: [
-        {text: "A bird", correct: false},
-        {text: "A lizard", correct: false},
-        {text: "A primate", correct: true},
-        {text: "A fish", correct: false},
+        {text: "Real life simulation", correct: false},
+        {text: "Advanced game theory", correct: false},
+        {text: "Small Search Space", correct: true},
+        {text: "Search Engine Optimisation", correct: false},
         ]
     },
     {
-        question: "How did spiderman get his powers?",
+        question: "The name of the Artificial Intelligence system developed by Daniel Bobrow was?",
         answer: [
-            {text: "He was bitten by a radioactive spider", correct: true},
-            {text: "He was born with spiders", correct: false},
-            {text: "he is a casualty of military experiment that went wrong", correct: false},
-            {text: "He woke up with spiders after a strange dream", correct: false},
+            {text: "STUDENT", correct: true},
+            {text: "SIMD", correct: false},
+            {text: "BACON", correct: false},
+            {text: "SLUSH", correct: false},
             ]
     },
     {
-        question: "Which of these animals does NOT appear in the Chinese zodiac?",
+        question: "Which of the following is a type of artificial intelligence agent?",
         answer: [
-            {text: "Bear", correct: true},
-            {text: "Dog", correct: false},
-            {text: "Dragon", correct: false},
-            {text: "Rabbit", correct: false},
+            {text: "Learni AI Agent", correct: false},
+            {text: "Simple Reflex AI Agent", correct: false},
+            {text: "Goal-Based AI Agent", correct: false},
+            {text: "All of the above", correct: true},
             ]
     },
     {
-        question: "How many hoes are on a standard bowling ball",
+        question: "Which of the following architecture is also known as systolic arrays?",
         answer: [
-            {text: "2", correct: false},
-            {text: "3", correct: true},
-            {text: "5", correct: false},
-            {text: "None", correct: false},
+            {text: "SISD", correct: false},
+            {text: "MISD", correct: true},
+            {text: "SIMD", correct: false},
+            {text: "None of the above", correct: false},
             ]
     }
     
